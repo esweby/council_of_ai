@@ -1,0 +1,17 @@
+# Local runtime records and secrets
+.env
+.env.*
+!.env.example
+data/
+backups/
+*.local
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Potential build outputs
+node_modules/
+dist/
+coverage/
